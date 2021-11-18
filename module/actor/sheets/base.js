@@ -55,6 +55,7 @@ export default class ActorSheetSS2e extends ActorSheet {
       religion: baseData.data.data.religion,
       reputation: baseData.data.data.reputation,
       concept: baseData.data.data.concept,
+      arcana: baseData.data.data.arcana,
 
       // Inventory Tab
       equipment: baseData.data.data.equipment,
