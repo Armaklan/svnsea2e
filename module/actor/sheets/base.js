@@ -77,6 +77,8 @@ export default class ActorSheetSS2e extends ActorSheet {
       this._processFlags(baseData, baseData.data.flags, sheetData);
     } else if (this.actor.data.type === "dangerpts") {
       sheetData.points = baseData.data.data.points;
+    } else if (this.actor.data.type === "brute") {
+      sheetData.ability = baseData.data.data.ability;
     }
     return sheetData;
   }
