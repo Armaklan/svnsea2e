@@ -1,4 +1,6 @@
 // Namespace D&D5e Configuration Values
+import { generateTrait } from './actor/models/shared';
+
 export const SVNSEA2E = {};
 
 SVNSEA2E.ASCII = `
@@ -101,13 +103,20 @@ SVNSEA2E.languages = {
 };
 
 SVNSEA2E.traits = {
-  brawn: 'SVNSEA2E.TraitBrawn',
+/*  brawn: 'SVNSEA2E.TraitBrawn',
   finesse: 'SVNSEA2E.TraitFinesse',
   resolve: 'SVNSEA2E.TraitResolve',
   wits: 'SVNSEA2E.TraitWits',
   panache: 'SVNSEA2E.TraitPanache',
   influence: 'SVNSEA2E.TraitInfluence',
-  strength: 'SVNSEA2E.TraitStrength',
+  strength: 'SVNSEA2E.TraitStrength',*/
+  compassion: "SVNSEA2E.TraitCompassion",
+  honesty: "SVNSEA2E.TraitHonesty",
+  joy: "SVNSEA2E.TraitJoy",
+  loyalty: "SVNSEA2E.TraitLoyalty",
+  peace: "SVNSEA2E.TraitPeace",
+  respect: "SVNSEA2E.TraitRespect",
+  widsom: "SVNSEA2E.TraitWidsom",
 };
 
 SVNSEA2E.skills = {
@@ -121,7 +130,8 @@ SVNSEA2E.skills = {
   notice: 'SVNSEA2E.SkillNotice',
   perform: 'SVNSEA2E.SkillPerform',
   ride: 'SVNSEA2E.SkillRide',
-  sailing: 'SVNSEA2E.SkillSailing',
+  protocole: 'SVNSEA2E.SkillProtocole',
+  /*sailing: 'SVNSEA2E.SkillSailing',*/
   scholarship: 'SVNSEA2E.SkillScholarship',
   tempt: 'SVNSEA2E.SkillTempt',
   theft: 'SVNSEA2E.SkillTheft',

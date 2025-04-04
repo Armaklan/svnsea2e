@@ -247,12 +247,7 @@ export default class ActorSheetSS2e extends ActorSheet {
         case 'skill':
           tval = actorData.skills[dataSet.key].value;
           break;
-        case 'trait':
-          if (dataSet.key === 'influence' || dataSet.key === 'strength') {
-            tval = actorData.traits[dataSet.key].value;
-          } else {
-            dataSetValue = 2;
-          }
+        case 'trait':tval = actorData.traits[dataSet.key].value;
           break;
         case 'corrupt':
           tval = actorData[dataSet.key];

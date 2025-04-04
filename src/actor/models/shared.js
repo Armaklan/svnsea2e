@@ -28,11 +28,18 @@ export const template_schema_details = () => ({
 
 export const template_schema_features = () => ({
   traits: new SchemaField({
-    brawn: generateTrait(2),
+    compassion: generateTrait(0),
+    honesty: generateTrait(0),
+    joy: generateTrait(0),
+    loyalty: generateTrait(0),
+    peace: generateTrait(0),
+    respect: generateTrait(0),
+    widsom: generateTrait(0),
+    /*brawn: generateTrait(2),
     finesse: generateTrait(2),
     resolve: generateTrait(2),
     wits: generateTrait(2),
-    panache: generateTrait(2),
+    panache: generateTrait(2),*/
   }),
   skills: new SchemaField({
     aim: generateTrait(0),
@@ -45,7 +52,8 @@ export const template_schema_features = () => ({
     notice: generateTrait(0),
     perform: generateTrait(0),
     ride: generateTrait(0),
-    sailing: generateTrait(0),
+    protocole: generateTrait(0),
+    /*sailing: generateTrait(0),*/
     scholarship: generateTrait(0),
     tempt: generateTrait(0),
     theft: generateTrait(0),
